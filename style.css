@@ -1,0 +1,200 @@
+body {
+    background-color: #fbfcf8;
+}
+
+#instagram-logo {
+    margin-top: 3%;
+    align-self: center;
+}
+
+.container1 {
+    display: flex;
+}
+
+#phone-pic {
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 6%;
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    border-style: solid;
+    border-color: gainsboro;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#username {
+    width: 270px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 10%;
+    border-radius: 3px;
+    border: solid;
+    border-color: gainsboro;
+    background-color: #fbfcf8;
+}
+
+#password {
+    width: 270px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 2%;
+    border-radius: 3px;
+    border: solid;
+    border-color: gainsboro;
+    background-color: #fbfcf8;
+}
+
+#login {
+    width: 276px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 4%;
+    background-color: #41a7f5;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 300px;
+    margin-top: 7%;
+    margin-left: 30px;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 130px;
+    background: gainsboro;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 130px;
+    background: gainsboro;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+#facebook-link {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #4267B2;
+    cursor: grab;
+    margin-left: 10%;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.facebook-login {
+    display: flex;
+    flex-direction: row;
+}
+
+#facebook-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #4267B2;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    border: gainsboro;
+    border-style: solid;
+    margin-top: 10%;
+}
+
+#no-account {
+    margin-left: 20%;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#sign-up {
+    margin-top: 4%;
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #41a7f5;
+}
+
+#get-app {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.appstore {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+/* Tablets and under */
+@media(max-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+/* Mobile */ 
+@media(max-width: 500px) {
+    .container1 {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        align-self: center;
+    }
+}
